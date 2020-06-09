@@ -8,7 +8,7 @@ body{
 
 header{
 	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../img/bg.jpg);
-	min-height: 78vh;
+	min-height: 700px;
 	background-size: cover;
 	background-position: center;
 }
@@ -73,17 +73,144 @@ ul li.active{
 	font-size: 70px
 	transform: translate(-70%,-70%);
 }
-.PROJECTS h1{
-	min-height: 78vh;
-	background-color: #6e8591;
+
+.project{
+	min-height: 380px;
+	background-color:#e9eef0;
 	color: #2e2438;
 	text-align: center;
 }
+.project h1{
+	margin: 0px;
+	padding-top: 20px;
+}
+.project img{
+	text-align: center;
+	padding: 15px 25px;
+
+}
+.project p{
+	font-weight: bold;                   
+
+}
+
  
- .skill{
- 	min-height: 78vh;
-	background-color: ##917A6E;
+ .skill {
+ 	min-height: 380px;
+	background-color: #fff;
+	
+ }
+ .skills{
+ 	
+ }
+
+  .skill h1{
+ 	margin: 0px;
+ 	padding-top: 20px;
+ 	text-align: center;
+
+  }
+
+  .bar1{
+	float: left; 
+	padding: 0 400px 200px 0;
+
+}
+
+.bar2{
+	float: right;
+	padding: 0 400px 200px 0;
+}
+
+
+
+  .one{
+  	height: 30px;
+  	width: 350px;
+  	background-color: #c99d24;
+
+  }
+  .one1{
+  	height: 30px;
+  	width: 130px; 
+  	background-color: #9c48bd;
+  	text-align: right;	 
+  }
+  .two{
+  	height: 30px;
+  	width: 350px;
+  	background-color: #c99d24;
+
+  }
+  .two2{
+  	height: 30px;
+  	width: 180px; 
+  	background-color: #9c48bd;
+  	text-align: right;
+  }
+  .three{
+  	height: 30px;
+  	width: 350px;
+  	background-color: #c99d24; 
+  }
+  .three3{
+  	height: 30px;
+  	width: 220px;
+  	background-color: #9c48bd;
+  	text-align: right;
+  }
+  .four{
+  	height: 30px;
+  	width: 350px;
+  	background-color: #c99d24; 
+  }
+  .four4{
+  	height: 30px;
+	width: 240px;
+	background-color: #9c48bd;
+	text-align: right;
+}
+
+.about {
+
+	min-height: 300px;
+	background-color: #e9eef0;
 	color: #2e2438;
 	text-align: center;
 
- }
+	
+}
+.about h1{
+	padding-top: 20px;
+	margin: 0;
+
+}
+.about p{
+	width: 800px;	
+	padding-left: 400px;
+	text-align: center;
+	padding-top: 50px;
+}
+.footer {
+	min-height: 400px;
+	background-color: #747778;
+	color: #2e2438;
+	text-align: center;
+}
+.footer h2{
+	padding-top: 20px;
+	margin: 0;
+}
+.icon{
+	 margin-left: 100px;
+	 padding
+}
+.cite{
+	margin: 1200px;
+	margin: 0 auto;
+}
+	
+
+.footer{
+	
+}

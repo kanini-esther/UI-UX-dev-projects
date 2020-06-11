@@ -7,8 +7,9 @@ body{
 
 
 header{
-	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../img/bg.jpg);
-	min-height: 700px;
+	/*background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../img/bg.jpg);*/
+	background-color: #848f94;
+	min-height: 500px;
 	background-size: cover;
 	background-position: center;
 }
@@ -57,14 +58,14 @@ ul li.active{
 
 .title{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+	top: 40%;
+	left: 40%;
+	transform: translate(-70%,-70%);
 }
 
 .title h1{
 	color: #fff;
-	font-size: 40px;
+	font-size: 20px;
 
 }
 .title p{
@@ -76,7 +77,7 @@ ul li.active{
 
 .project{
 	min-height: 380px;
-	background-color:#e9eef0;
+	background-color:#fff;
 	color: #2e2438;
 	text-align: center;
 }
@@ -95,27 +96,32 @@ ul li.active{
 }
 
  
- .skill {
+ .skill  {
  	min-height: 380px;
-	background-color: #fff;
+	background-color: #e9eef0;
 	
- }
- .skills{
- 	
  }
 
   .skill h1{
  	margin: 0px;
  	padding-top: 20px;
  	text-align: center;
-
   }
+
+  .moja{
+ 	float:left;
+ 	padding-left:  300px;
+ 	/*padding: 0 400px 200px 0;
+*/ 	/**text-align: center;*/
+ }
+
 
   .bar1{
 	float: left; 
-	padding: 0 400px 200px 0;
-
+/*	padding: 0 300px 200px 0;
+*/
 }
+
 
 .bar2{
 	float: right;
@@ -127,72 +133,77 @@ ul li.active{
   .one{
   	height: 30px;
   	width: 350px;
-  	background-color: #c99d24;
+  	background-color:#454038 ;
+  	 
 
   }
+
   .one1{
   	height: 30px;
   	width: 130px; 
-  	background-color: #9c48bd;
+  	background-color: #38453d;
   	text-align: right;	 
   }
+
   .two{
   	height: 30px;
   	width: 350px;
-  	background-color: #c99d24;
+  	background-color:#454038;
 
   }
+
   .two2{
   	height: 30px;
   	width: 180px; 
-  	background-color: #9c48bd;
+  	background-color:#38453d;
   	text-align: right;
   }
+
   .three{
   	height: 30px;
   	width: 350px;
-  	background-color: #c99d24; 
+  	background-color: #454038; 
   }
+
   .three3{
   	height: 30px;
   	width: 220px;
-  	background-color: #9c48bd;
+  	background-color:#38453d ;
   	text-align: right;
   }
+
   .four{
   	height: 30px;
   	width: 350px;
-  	background-color: #c99d24; 
+  	background-color: #454038; 
   }
+
   .four4{
   	height: 30px;
 	width: 240px;
-	background-color: #9c48bd;
+	background-color:#38453d ;
 	text-align: right;
 }
 
 .about {
 
-	min-height: 300px;
-	background-color: #e9eef0;
+	height: 350px;
+	background-color: #fff;
 	color: #2e2438;
 	text-align: center;
 
-	
 }
-.about h1{
-	padding-top: 20px;
-	margin: 0;
+
+.about1{
+	padding: 20px 80px 90px 0;
+	
+	
+
 
 }
-.about p{
-	width: 800px;	
-	padding-left: 400px;
-	text-align: center;
-	padding-top: 50px;
-}
+
 .footer {
-	min-height: 400px;
+	min-height: 250px;
 	background-color: #747778;
 	color: #2e2438;
 	text-align: center;
@@ -201,16 +212,35 @@ ul li.active{
 	padding-top: 20px;
 	margin: 0;
 }
-.icon{
+/*.icon{
 	 margin-left: 100px;
 	 padding
-}
+}*/
 .cite{
 	margin: 1200px;
 	margin: 0 auto;
 }
-	
 
-.footer{
-	
+
+.phone {
+	float: left;
+	padding-left: 20px;
+}
+.git{
+	float: left;
+	padding-left: 20px;
+
+}
+.lin{
+	float: left;
+	padding-left: 20px;
+
+}
+.email{
+	float: left;
+	padding-left: 20px;
+}
+.icon{
+	padding-left: 500px;
+	padding-top: 50px;
 }

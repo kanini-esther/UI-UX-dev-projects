@@ -1,4 +1,6 @@
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -58,21 +60,23 @@ ul li.active{
 
 .title{
 	position: absolute;
-	top: 40%;
-	left: 40%;
-	transform: translate(-70%,-70%);
+	top: 18%;
+	/*left: 30%;*/
+	text-align: center;
+	/*transform: translate(-70%,-70%);*/
 }
 
 .title h1{
 	color: #fff;
 	font-size: 20px;
+	text-align: center;
 
 }
 .title p{
-	position: absolute;
+	/*position: absolute;*/
 	color: #fff;
-	font-size: 70px
-	transform: translate(-70%,-70%);
+	font-size: 50px
+	/*transform: translate(-70%,-70%);*/
 }
 
 .project{
@@ -192,6 +196,10 @@ ul li.active{
 	color: #2e2438;
 	text-align: center;
 
+}
+.about h1{
+	padding-bottom: 20px;
+	padding-left: 650px;
 }
 
 .about1{
